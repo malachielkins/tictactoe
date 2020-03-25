@@ -138,12 +138,14 @@ def inputPlayerLetters():
         print('Player 1 will be X, Player 2 will be O.')
         return ['X', 'O']
 
+
 def score(p1, p2, ties):
     # This function shows how many times each player has won, as well as how many ties there have been.
     return('''Score:
     P1 wins: %s
     P2 wins: %s
     Ties: %s''' % (p1, p2, ties))
+
 
 def playAgain():
     # This function returns True if the player wants to play again, otherwise it returns False.

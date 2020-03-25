@@ -62,7 +62,9 @@ while True:
 
     # displays the score
     score = tictactoe.score(p1score, p2score, ties)
+    print()
     print(score)
+    print()
 
     if not tictactoe.playAgain():
         print()
